@@ -1,0 +1,49 @@
+.title{
+    text-align: center;
+    color: #FFC107;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+
+
+@font-face {
+  font-family: 'Cairo';
+  src: url('fonts/cairo_black.ttf') format('truetype');
+  font-weight: 900; 
+  font-style: normal;
+  font-display: swap; 
+}
+
+.button {
+
+  background-color: #ffffff;
+  color: #333333;         
+  padding: 10px 20px;      
+  border: 1px solid #cccccc; 
+  border-radius: 4px;      
+  font-size: 16px;       
+  cursor: pointer;   
+  width: 100%;
+  background-color: #FFC107;       
+  margin-bottom: 10px;
+  border-radius: 5cm;
+
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+
+  transition: all 0.3s ease; 
+}
+
+.button:hover {
+  background-color: #f4f4f4; 
+  border-color: #999999;   
+}
+
+
+.button:active {
+  transform: translateY(1px);
+}
